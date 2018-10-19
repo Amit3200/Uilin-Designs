@@ -1,1 +1,25 @@
-{}
+{
+    "name": "uilin designs",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/Amit3200/Uilin-Designs",
+    "description": "demo repo",
+    "keywords": ["uilin","Uilin-Designs"],
+    "authors": [
+        {
+            "name": "Amit Singh",
+            "email": "tusharamit@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": { 
+            "Example": "src/"
+        }
+    }
+}
